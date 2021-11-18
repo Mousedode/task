@@ -125,7 +125,6 @@ body{
     width: 121.5px;
     height: 36px;
     margin-top: 31px;
-    background: #FFFEFB;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     font-family: Source Sans Pro;
@@ -139,11 +138,9 @@ body{
     align-self: end;
     margin-bottom: 16px;
     appearance: none;
-    background-image: url(/img/Rectangle\ 33.svg) no-repeat right;
+    background: url(/img/select.svg) no-repeat right #FFFEFB;
     background-position-x: 99px ;
     background-position-y: 14px ;
-
-    
 }
 
 .card{
