@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <section class="wrapper">
+        <section class="contain__main">
+            <section class="contain__form">
+                <p class="title">Добавление товара</p>
+                <form class="form"  action="">
+                    <p class="form__text form__text--important">Наименование товара</p>
+                    <input class="form__input" id="name" name="name" type="text" placeholder="Введите наименование товара">
+                    <p class="form__text">Описание товара</p>
+                    <input class="form__input" id="desc" name="desc" type="text" placeholder="Введите описание товара">
+                    <p class="form__text form__text--important">Ссылка на изображение товара</p>
+                    <input class="form__input" id="scr"  name="scr" type="text" placeholder="Введите ссылку">
+                    <p class="form__text form__text--important ">Цена товара</p>
+                    <input class="form__input" id="price" name="price" type="text" placeholder="Введите цену">
+                    <button class="form__btn" type="submit">Добавить товар</button>
+                </form>
+            </section>
+            <section class="contain__product">
+                <select class="dropdown" name="" id="">
+                    <option class="dropdown__item" value="">По умолчанию</option>
+                </select>
+                <div class="contain__cards">
+                    <div class="card">
+                        <div class="img__contain"><img class="img" src="/img/Rectangle 31.png" alt="Product"></div>
+                        <a class="card__delete" href=""></a>
+                        <div class="card__content">
+                            <p class="card__title">Наименование товара</p>
+                            <p class="card__desc">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+                            <p class="card__price">10 000 руб.</p>  
+                        </div>                  
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+<script src="/js/main.js"></script>
+</html>
